@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://zachzhou-git.github.io/Miguel-Rueda/al-folio/sitemap.xml
+Sitemap: https://zachzhou-git.github.io/Miguel-Rueda/sitemap.xml
