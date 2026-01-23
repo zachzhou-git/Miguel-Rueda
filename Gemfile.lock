@@ -60,10 +60,8 @@ GEM
       csl (~> 2.0)
     css_parser (1.21.1)
       addressable
-    cssminify2 (2.1.0)
     csv (3.3.5)
     date (3.5.1)
-    deep_merge (1.2.2)
     drb (2.2.3)
     em-websocket (0.5.3)
       eventmachine (>= 0.12.9)
@@ -114,7 +112,6 @@ GEM
     html-pipeline (2.14.3)
       activesupport (>= 2)
       nokogiri (>= 1.4)
-    htmlcompressor (0.4.0)
     http_parser.rb (0.8.1)
     httparty (0.24.2)
       csv
@@ -151,20 +148,7 @@ GEM
     jekyll-cache-bust (0.0.1)
       jekyll (>= 3.6, < 5.0)
     jekyll-email-protect (1.1.0)
-    jekyll-feed (0.17.0)
-      jekyll (>= 3.7, < 5.0)
-    jekyll-get-json (1.0.0)
-      deep_merge (~> 1.2)
-      jekyll (>= 3.0)
     jekyll-link-attributes (1.0.1)
-    jekyll-minifier (0.2.2)
-      cssminify2 (~> 2.1.0)
-      htmlcompressor (~> 0.4)
-      jekyll (~> 4.0)
-      json-minify (~> 0.0.3)
-      terser (~> 1.2.3)
-    jekyll-paginate-v2 (3.0.0)
-      jekyll (>= 3.0, < 5.0)
     jekyll-regex-replace (1.1.0)
     jekyll-sass-converter (3.1.0)
       sass-embedded (~> 1.75)
@@ -190,8 +174,6 @@ GEM
       html-pipeline (~> 2.2)
       jekyll (>= 3.0, < 5.0)
     json (2.18.0)
-    json-minify (0.0.3)
-      json (> 0)
     kramdown (2.5.2)
       rexml (>= 3.4.4)
     kramdown-parser-gfm (1.1.0)
@@ -311,11 +293,7 @@ DEPENDENCIES
   jekyll-archives-v2
   jekyll-cache-bust
   jekyll-email-protect
-  jekyll-feed
-  jekyll-get-json
   jekyll-link-attributes
-  jekyll-minifier
-  jekyll-paginate-v2
   jekyll-regex-replace
   jekyll-scholar
   jekyll-sitemap
