@@ -1,10 +1,8 @@
 ---
 layout: profiles
-permalink: /people/
-title: people
-description: members of the lab or group
+permalink: /profiles/
+title: profiles
 nav: false
-nav_order: 7
 
 profiles:
   # if you want to include more than one profile, just replicate the following block
