@@ -1,6 +1,7 @@
 ---
 layout: about
 title: HOME
+nav_order: 1
 permalink: /
 subtitle: POLITICAL SCIENCE, EMORY UNIVERSITY
 
