@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: HOME
 permalink: /
 subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
@@ -9,23 +9,30 @@ profile:
   image: Rueda_headshot13.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Email: miguel.rueda(at)emory.edu</p>
+    <p>Phone: (404) 727 - 6571</p>
+    <p>315 Tarbutton Hall,1555 Dickey Drive</p>
+    <p>Atlanta, Georgia 30322</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: false # includes social icons at the bottom of the page
 
 announcements:
-  enabled: true # includes a list of news items
+  enabled: false # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
+I am an Associate Professor in the Department of Political Science at Emory University. My research interests include electoral manipulation, civil conflict, electoral systems, and political methodology. My work has been published in the American Political Science Review, the American Journal of Political Science, the Journal of Politics, the Journal of Conflict Resolution, the Journal of Theoretical Politics, Political Analysis, and Political Science Research and Methods.
+
+ 
+
+Prior to joining the Emory faculty, I was a visiting research scholar at the Center for the Study of Democratic Politics of Princeton University (2013-2014). I received my PhD in Political Science from the University of Rochester in 2014. I also hold an M.Sc. in Economics and a B.Sc. in Economics and Mathematics from La Universidad de los Andes in Bogotá, Colombia.
+
 
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
