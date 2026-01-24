@@ -12,6 +12,7 @@ profile:
   more_info: >
     <p>Email: miguel.rueda@emory.edu</p>
     <p>Phone: (404) 727 - 6571</p>
+    <p>Address: </p>
     <p>315 Tarbutton Hall, </p>
     <p>1555 Dickey Drive, </p>
     <p>Atlanta, Georgia 30322</p>
@@ -29,7 +30,7 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
-I am an Associate Professor in the [Department of Political Science](https://polisci.emory.edu/) at [Emory University](https://www.emory.edu/home/index.html). My research interests include electoral manipulation, civil conflict, electoral systems, and political methodology. My work has been published in the American Political Science Review, the American Journal of Political Science, the Journal of Politics, the Journal of Conflict Resolution, the Journal of Theoretical Politics, Political Analysis, and Political Science Research and Methods.
+I am an Associate Professor in the [Department of Political Science](https://polisci.emory.edu/) at [Emory University](https://www.emory.edu/home/index.html). My research interests include electoral manipulation, civil conflict, electoral systems, and political methodology. My work has been published in the *American Political Science Review*, the *American Journal of Political Science*, the *Journal of Politics*, the *Journal of Conflict Resolution*, the *Journal of Theoretical Politics*, *Political Analysis*, and *Political Science Research and Methods*.
 
  
 

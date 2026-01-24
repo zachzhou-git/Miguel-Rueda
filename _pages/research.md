@@ -1,7 +1,224 @@
 ---
 layout: page
-title: Research
+title: RESEARCH
 nav: true
 nav_order: 3
 permalink: /research/
 ---
+<style>
+/* ===== Research/Publications layout ===== */
+
+/* 大标题：紫色 + 更大字号 + 粗体 */
+.pubs-h1{
+  font-weight: 700;
+  font-size: 1.6rem;
+  color: var(--global-theme-color, #6f42c1); /* 优先用模板紫色变量；没有就用紫色 fallback */
+  margin: 1.2rem 0 0.8rem 0;
+}
+
+/* 小标题：黑色 + 粗体；字号与论文标题一致 */
+.pubs-h2{
+  font-weight: 700;
+  font-size: 1rem;
+  color: #000;
+  margin: 1.6rem 0 0.6rem 0; /* 这里控制“小标题之间留间距” */
+}
+
+/* 每条论文（details）块的间距 */
+.pub-item{
+  margin: 0 0 0.65rem 0;
+}
+
+/* 论文标题：正常字重；字号与小标题一致 */
+.pub-item summary{
+  font-weight: 400;   /* 关键：别加粗 */
+  font-size: 1rem;
+  line-height: 1.45;
+}
+
+/* 如果你想让 coauthors / journal 也跟着 summary 统一正常体，就保持这样即可 */
+
+/* 展开后的段落间距 */
+.pub-item p{
+  margin: 0.45rem 0 0.9rem 0;
+}
+</style>
+
+
+<h2 class="pubs-h1">Publications</h2>
+
+<h3 class="pubs-h2">Elections and Electoral Manipulation</h3>
+
+<details class="pub-item">
+<summary><strong>Do More Disaggregated Electoral Results Deter Aggregation Fraud?</strong> (with Guy Grossman and Shuning Ge), Accepted <em>British Journal of Political Science</em>.</summary>
+
+<p>
+The level at which electoral results are published can arguably affect the integrity of elections. Publishing more granular results (e.g., at the polling station level) can allow civil society watchdogs to verify the vote totals that determine election outcomes, thereby deterring voting aggregation fraud. While this logic undergirds the recommendations of international organizations monitoring elections to publish disaggregated electoral results, to date there have not been systematic assessments of how variation in aggregation is linked to electoral miscounting. We address this lacuna by constructing a new dataset of the level at which electoral results have been reported in 123 low- and middle-income countries since 2000. We find a clear negative association between the granularity of published electoral returns and indicators of counting irregularities. We do not observe substitution of election malpractice: increased granularity is not linked to expert-based indicators of other forms of manipulation like electoral violence, or clientelism.
+<a href="https://osf.io/preprints/osf/dqt6c" target="_blank" rel="noopener">pdf</a>
+</p>
+</details>
+
+<details class="pub-item">
+<summary><strong>National Electoral Thresholds and Disproportionality</strong> (with Tasos Kalandrakis), <em>Political Analysis</em>, 2021, 29(1).</summary>
+
+<p>
+We model the conditional distribution of seats given vote shares induced by national electoral systems using a stochastic threshold of representation and a disproportionality parameter that regulates allocation for parties above the threshold. We establish conditions for the parameters of this model to be identified from observed seats/votes data, and develop a Maximum a Posteriori Expectation-Maximization (MAP-EM) algorithm to estimate them. We apply the procedure to 116 electoral systems used in 417 elections to the lower house across 36 European countries since WWII. We reject a test of model fit in only 5 of those systems, while a simpler model without thresholds is rejected in favor of our estimated model in 49 electoral systems. We find that the two modal electoral system configurations involve higher thresholds with seat allocation for parties exceeding thresholds that does not statistically differ from perfectly proportional allocation (32.76% of all systems); and systems for which we cannot reject the absence of a national threshold but exhibit disproportional seat allocation for parties eligible for seats (38.79% of all systems). We also develop procedures to test for significant changes in electoral institutions and/or the distribution of seats.
+<a href="/assets/pdf/ETHEDfinal.pdf">pdf</a> ·
+<a href="/assets/pdf/ETHEDfinal_online.pdf">online appendix</a>
+</p>
+</details>
+
+<details class="pub-item">
+<summary><strong>Political Agency, Election Quality, and Corruption</strong> (with Nelson A. Ruiz), <em>Journal of Politics</em>, 2020, 82(4).</summary>
+
+<p>
+How does electoral manipulation affect elected officials' incentives to satisfy their constituents? The literature has highlighted the role of elections as a way to keep politicians accountable to the voters. Yet, we know little about how electoral processes whose integrity has been compromised affect public officials' actions while in office. This paper presents a formal model of electoral accountability in which electoral manipulation can occur during the campaign. Three findings are derived from the model: i) rent extraction increases with levels of electoral manipulation, ii) the value of holding public office is positively related to rent extraction for high values of office, and iii) electoral manipulation increases with the value of office. Using a fuzzy regression discontinuity design that exploits rules determining the sizes of polling stations in Colombia, we find a positive effect of vote buying during mayors' elections on the likelihood of the election winner being sanctioned for violating laws governing public officials. Consistent with our theory, the data show that higher values of office are not linked to less sanctions, but are associated with more reports of vote buying.
+<a href="/assets/pdf/Rueda_Ruiz_Agency_Corruption.pdf">pdf</a> ·
+<a href="/assets/pdf/online_Agency_Corruption.pdf">supplemental material</a>
+</p>
+</details>
+
+<details class="pub-item">
+<summary><strong>Partisan Poll Watchers and Electoral Manipulation</strong> (with Sergio Ascencio), <em>American Political Science Review</em>, 2019, 113(3).</summary>
+
+<p>
+How do parties protect themselves from electoral manipulation? To answer this question, we study the drivers of polling station party representatives' presence and their impact on electoral outcomes in an environment where electoral irregularities are common. Using election data from the Mexican Chamber of Deputies, we find a robust positive correlation between the presence of party representatives and that party's vote share. The evidence suggests that this correlation can be attributed to party representatives influencing the electoral results. We also formulate a game theoretic model of the levels of representation chosen by parties in a given precinct and structurally estimate its parameters. We find that parties send their representatives where they expect their opponents to send their own. The finding suggests representatives play a primarily protective role, even when they are often involved in irregularities themselves.
+<a href="/assets/pdf/non_Main_Anonymous_r%26r.pdf">pdf</a> ·
+<a href="/assets/pdf/Appendix_Anonymous_r%26r.pdf">supplemental material</a>
+</p>
+</details>
+
+<details class="pub-item">
+<summary><strong>Small Aggregates, Big Manipulation: Vote Buying Enforcement and Collective Monitoring</strong>, <em>American Journal of Political Science</em>, 2017, 61(1).</summary>
+
+<p>
+Vote buying is widespread in developing democracies despite the secret ballot. What explains its resilience? I argue that brokers condition future payments on published electoral results to enforce these transactions and that this is effective at inducing voters' compliance only when the results of small voting groups are available. Using monitors' and citizens' reports of electoral manipulation and survey data from Colombia, I find a robust negative correlation between the size of the average polling station and various measures of vote buying. Evidence from a variety of identification strategies suggests that this relationship can be attributed to aggregate monitoring sustaining these transactions and not to the brokers' increased ability to identify compliers or other characteristics of places where polling stations are small.
+<a href="/assets/pdf/NonAnonymous2R%26R.pdf">pdf</a> ·
+<a href="/assets/pdf/Supplemental_Material_AJPS_acepted.pdf">supplemental material</a>
+</p>
+</details>
+
+<details class="pub-item">
+<summary><strong>Buying Votes with Imperfect Local Knowledge and a Secret Ballot</strong>, <em>Journal of Theoretical Politics</em>, 2015, 27(3).</summary>
+
+<p>
+How do politicians buy votes in secret ballot elections? I present a model of vote buying in which a broker sustains bribed voters' compliance by conditioning future bribes on whether her candidate's votes reach an optimally-set threshold. Unlike previous explanations of compliance, the threshold mechanism does not require brokers to observe individual voters' political preferences or even vote totals of the bribed voters. I show that when there is uncertainty about voters' preferences, compliance can be sustained as long as electoral results of small groups are available. If preferences are observed however, vote buying is not deterred by higher aggregation of electoral results. I also find that vote buying is facilitated when voters care about the welfare of other voters. Using survey data from Nigeria, I provide evidence consistent with the model's results.
+<a href="/assets/pdf/WS_VB.pdf">pdf</a>
+</p>
+</details>
+
+<h3 class="pubs-h2">Money in Politics</h3>
+
+<details class="pub-item">
+<summary><strong>How Do Electoral Outcomes Affect Campaign Contributions? The Role of Personal Loyalty and Investment Motives</strong> (with Nelson A. Ruiz), Accepted <em>British Journal of Political Science</em>.</summary>
+
+<p>
+How do electoral outcomes affect campaign contributions? We argue that in contexts where personal connections to the candidate and investment motivations dominate ideology and partisanship as drivers of donations, two main factors shape donors' future behavior: 1) government benefits accrued by donors (e.g., contracts) and 2) whether the supported candidate runs again in future elections. Using data from Colombian mayoral elections, a context with no reelection, weak parties, and non-ideological races, we find that donating to the winning candidate reduces the probability of donating in the next election. We further show that, among donors to the winner, those who receive a contract from the municipality are more likely to continue donating than those without contracts. The findings highlight the importance of personal loyalty to the candidate and the fulfillment of donors’ investment expectations determining campaign contributions in non-established democracies.
+<a href="/assets/pdf/Final_BJPS.pdf">pdf</a> ·
+<a href="/assets/pdf/Supp_BJPS.pdf">online appendix</a>
+</p>
+</details>
+
+<details>
+<summary class="pub-item"><strong>Do Campaign Contribution Limits Curb the Influence of Money in Politics?</strong> (with Saad Gulzar and Nelson A. Ruiz), <em>American Journal of Political Science</em>, 2022, 66(4).</summary>
+
+<p>
+Over 40% of countries around the world have adopted limits on campaign contributions to curb the influence of money in politics. Yet, we have limited knowledge of whether and how these limits achieve this goal. Using a regression discontinuity design that exploits institutional rules on contribution limits in Colombian municipalities, we show that looser limits increase the number of public contracts assigned to donors to the elected candidate. This is explained by looser limits increasing the influence of top donors over the elected candidate, rather than reducing electoral competition or changing who is elected to office. We further show that looser limits worsen the quality of public contracts given to the winner's donors: These contracts are more likely to run over their stipulated costs. Overall, this article links looser campaign contribution limits, donor kickbacks, and worse performance of contracts awarded to donors.
+<a href="/assets/pdf/limits_sent.pdf">pdf</a> ·
+<a href="/assets/pdf/limits_sent_app.pdf">online appendix</a>
+</p>
+</details>
+
+<h3 class="pubs-h2">Methodology</h3>
+
+
+<details>
+<summary class="pub-item"><strong>Post-Instrument Bias</strong> (with Adam Glynn and Julian Schuessler), Conditionally accepted <em>American Journal of Political Science</em>.</summary>
+
+<p>
+When using instrumental variables, researchers often assume that causal effects are only identified conditional on covariates. We show that the role of these covariates in applied research is often unclear and that there exists confusion regarding their ability to mitigate violations of the exclusion restriction. We explain when and how existing adjustment strategies may lead to “post-instrument” bias. We then discuss assumptions that are sufficient to identify various treatment effects when adjustment for post-instrument variables is required. In general, these assumptions are highly restrictive, albeit they sometimes are testable. We also show that other existing tests are generally misleading. Then, we introduce a sensitivity analysis that uses information on variables influenced by the instrument to gauge the effect of potential violations of the exclusion restriction. We illustrate it in two replications of existing analyses and summarize our results in easy-to-understand guidelines.
+<a href="/assets/pdf/Post_Instrument_Bias_AJPS.pdf">pdf</a>
+</p>
+</details>
+
+<details>
+<summary class="pub-item"><strong>Post-Instrument Bias in Linear Models</strong> (with Adam Glynn and Julian Schuessler), <em>Sociological Methods and Research</em>, 53(4), 1829–1845.</summary>
+
+<p>
+Post-instrument covariates are often included as controls in IV analyses to address a violation of the exclusion restriction. However, we show that such analyses are subject to biases unless strong assumptions hold. Using linear constant-effects models, we present asymptotic bias formulas for three estimators (with and without measurement error): IV with post-instrument covariates, IV without post-instrument covariates, and OLS. In large samples and when the model provides a reasonable approximation, these formulas sometimes allow the analyst to bracket the parameter of interest with two estimators and allow the analyst to choose the estimator with the least asymptotic bias. We illustrate these points with a discussion of Acemoglu, Johnson, and Robinson (2001).
+<a href="/assets/pdf/Post_instruments.pdf">pdf</a> ·
+<a href="/assets/pdf/Post_instruments_app.pdf">online appendix</a>
+</p>
+</details>
+
+<details>
+<summary class="pub-item"><strong>Omitted Variables, Countervailing Effects, and The Possibility of Overadjustment</strong> (with Kevin A. Clarke and Brenton Kenkel), <em>Political Science Research and Methods</em>, 2018, 6(2).</summary>
+
+<p>
+The effect of conditioning on an additional covariate on confounding bias depends, in part, on covariates that are unobserved. We characterize the conditions under which the interaction between a covariate that is available for conditioning and one that is not can affect bias. When the confounding effects of two covariates, one of which is observed, are countervailing (in opposite directions), conditioning on the observed covariate can increase bias. We demonstrate this possibility analytically, and then show that these conditions are not rare in actual data. We also consider whether balance tests or sensitivity analysis can be used to justify the inclusion of an additional covariate. Our results indicate that neither provide protection against overadjustment.
+<a href="/assets/pdf/OVCE_PSRM_Rev.pdf">pdf</a>
+</p>
+</details>
+
+<h3 class="pubs-h2">Conflict</h3>
+
+<details>
+<summary class="pub-item"><strong>Competition and Civilian Victimization</strong> (with Michael Gibilisco and Brenton Kenkel), <em>Journal of Conflict Resolution</em>, 2022, 66(4–5).</summary>
+
+<p>
+Violence against civilians in civil war is widely thought of as a strategic choice by combatant groups. We argue that a common strategic logic of competition underlies diverse theories of civilian victimization. Drawing on this logic, we develop a theory of competitive outbidding in victimization, hypothesizing that an armed group's propensity to victimize civilians will increase with its expectation that its competitors will act likewise. We test this argument by structurally estimating a model of strategic interdependence between armed groups using data from the Colombian civil war. Our findings indicate that competitive outbidding is responsible for a substantial amount of violence against civilians. We estimate that each of the two major combatant groups would have carried out systematic anti-civilian violence in 12–16% fewer municipalities if the group had expected no violence by its rival. Examining causal mechanisms, we also find that victimization in the Colombian case was more likely aimed at inducing civilian cooperation than at influencing postwar negotiating positions.
+<a href="/assets/pdf/competitionVictimizaton.pdf">pdf</a>
+</p>
+</details>
+
+<details>
+<summary class="pub-item"><strong>Popular Support, Violence, and Territorial Control in Civil War</strong>, <em>Journal of Conflict Resolution</em>, 2017, 61(8).</summary>
+
+<p>
+I study civilians' cooperation with an armed group in an irregular war. In the model, civilians differ in their valuation of siding with the armed group and make cooperation decisions without knowing others' motivations or cooperation choices. I find that a superior military force is not sufficient to bring high cooperation and that full cooperation can only be attained if military power is complemented by expectations of punishment for helping the enemy. The model challenges the idea that random violence aimed at punishing enemy cooperators is used when selectivity is difficult to implement, and it shows that indiscriminate reprisals induce lower levels of cooperation, even when enemy cooperators are less likely to be punished with selective methods. Finally, I find that communities that have a highly centralized process of decision making are expected to give their support to only one group of combatants and to be exposed to less violence.
+<a href="/assets/pdf/Non_Anonymous_accepted.pdf">pdf</a>
+</p>
+</details>
+
+<h2 class="pubs-h1">Working Papers and Work in Progress</h2>
+
+<details>
+<summary class="pub-item"><strong>Strategic Foreign Aid: A Structural Approach</strong> (with Michael Gibilisco, Brenton Kenkel, and Anthony Luongo).</summary>
+
+<p>
+The U.S. and China are entering a new era of major-power competition in which foreign aid serves as a tool for contesting global influence. What is the effect of competition on the distribution of aid from China and the U.S. across the globe? While the literature has studied how specific factors (e.g., democracy) affect the amount of foreign aid a country receives, we still do not know whether these factors affect the preferences of the U.S. and China for giving aid directly or indirectly via competition and strategic interaction. In this paper, we answer these questions by adopting a structural approach: we construct a game-theoretic contest model of aid distribution and estimate its parameters given the observed foreign aid commitments of the two countries. The structural approach allows us to (1) estimate the degree to which aid given by one major power to a specific recipient country responds to the expectations of its rival’s aid to the same country; (2) see whether other factors of potential recipient countries (e.g., democracy) moderate the U.S. and China's response to each others' aid; and (3) compare a country's observed distribution of aid to the counterfactual distribution that would arise absent competition from its rival.
+</p>
+</details>
+
+<details>
+<summary class="pub-item"><strong>Informative Pre-election Attacks and Post-Electoral Reprisals</strong> (with Gavin Kiger).</summary>
+
+<p>
+Why do political parties use violence against voters before elections? Beyond suppressing turnout among opposition supporters, we argue that pre-electoral violence coerces participation in favor of the perpetrating party. It does so through two reinforcing mechanisms: 1) it signals the party’s willingness and capacity to use further violence in response to unfavorable electoral outcomes, and 2) by depressing turnout in groups for which electoral results are available, it increases the importance of each vote in determining whether such future punishments will occur. We formalize this logic in an incomplete information model in which voters are uncertain about parties' violent capabilities. The model rationalizes why violence is prevalent where voting occurs along ethnic lines; it describes how the granularity of electoral result reporting affects pre- and post-electoral violence, and explains why pre-electoral violence occurs even in areas that largely support the perpetrating party.
+<a href="/assets/pdf/electoral_violence.pdf">pdf</a>
+</p>
+</details>
+
+<details>
+<summary class="pub-item"><strong>Vote Buying and Associational Life</strong>.</summary>
+
+<p>
+This paper documents a robust positive correlation between community group participation and occurrences of vote buying attempts in Latin America. Instrumental variable estimates and results of panel data models that account for time-invariant unobserved voter characteristics indicate that a more vibrant associational life facilitates this widespread form of electoral manipulation. Contrary to the expectations derived from the traditional literature on social capital, the findings show that institutions of civic participation can potentially be exploited to increase the efficiency of electoral strategies of manipulation, reducing accountability and affecting the quality of democratic processes.
+<a href="/assets/pdf/non_anonymous.pdf">pdf</a>
+</p>
+</details>
+
+<h3 class="pubs-h1">Other Writing</h3>
+
+
+<details>
+<summary class="pub-item"><strong>Analysis of Donations to Colombia's Presidential Candidates in 2018</strong> (with Nelson A. Ruiz).</summary>
+
+<p>
+Information about the funding of campaigns during an election is just as important as the candidates’ election platforms. If money from special interests funds a campaign, voters could use information on these donations to assess whether their candidates will be representing their interests or their donors’ if elected (Ashworth 2006; Coate 2004). Voters should know how much money is donated to a campaign, how concentrated are these donations, whether the donors were contractors of the state, and whether they have a history of receiving contracts from those who received their donations in the past. We provide this information for the current (first-round) presidential campaign in Colombia 2018. We find that donors who have experience contracting with the public sector give larger contributions.
+<a href="/assets/pdf/Presidential_Race.pdf">pdf</a>
+</p>
+</details>
+
+---
+
