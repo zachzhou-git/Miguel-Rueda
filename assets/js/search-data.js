@@ -17,7 +17,7 @@ ninja.data = [{
             window.location.href = "/Miguel-Rueda/cv/";
           },
         },{id: "nav-research",
-          title: "Research",
+          title: "RESEARCH",
           description: "",
           section: "Navigation",
           handler: () => {
