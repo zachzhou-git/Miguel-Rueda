@@ -2,10 +2,20 @@
 
 /* Light mode */
 :root {
-  --global-theme-color: #0067c8f6;      /* 主色：链接/高亮/按钮等 */
-  --global-hover-color: #04a9e4;      /* hover 色 */
+  --global-theme-color: #0067c8f6;      /* main theme color */
+  --global-hover-color: #04a9e4;      /* hover color */
   --global-text-color: #111111;
   --global-bg-color: #ffffff;
 }
 
+/* distance of subtitle to pub-item */
+.pubs-h2 + details.pub-item{
+  margin-top: 0.8rem;  
+}
+
+/* header unbolded */
+.navbar .navbar-brand,
+.navbar .navbar-brand * {
+  font-weight: 400 !important;
+}
 

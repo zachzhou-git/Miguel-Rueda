@@ -11,15 +11,15 @@ permalink: /research/
 /* 大标题：紫色 + 更大字号 + 粗体 */
 .pubs-h1{
   font-weight: 700;
-  font-size: 1.6rem;
+  font-size: 1.7rem;
   color: var(--global-theme-color, #6f42c1); /* 优先用模板紫色变量；没有就用紫色 fallback */
   margin: 1.2rem 0 0.8rem 0;
 }
 
 /* 小标题：黑色 + 粗体；字号与论文标题一致 */
 .pubs-h2{
-  font-weight: 700;
-  font-size: 1rem;
+  font-weight: 400;
+  font-size: 1.3rem;
   color: #000;
   margin: 1.6rem 0 0.6rem 0; /* 这里控制“小标题之间留间距” */
 }
