@@ -133,7 +133,7 @@ Over 40% of countries around the world have adopted limits on campaign contribut
 
 
 <details>
-<summary class="pub-item"><strong>Post-Instrument Bias</strong> (with Adam Glynn and Julian Schuessler), Conditionally accepted <em>American Journal of Political Science</em>.</summary>
+<summary class="pub-item"><strong>Post-Instrument Bias</strong> (with Adam Glynn and Julian Schuessler), Accepted <em>American Journal of Political Science</em>.</summary>
 
 <p>
 When using instrumental variables, researchers often assume that causal effects are only identified conditional on covariates. We show that the role of these covariates in applied research is often unclear and that there exists confusion regarding their ability to mitigate violations of the exclusion restriction. We explain when and how existing adjustment strategies may lead to “post-instrument” bias. We then discuss assumptions that are sufficient to identify various treatment effects when adjustment for post-instrument variables is required. In general, these assumptions are highly restrictive, albeit they sometimes are testable. We also show that other existing tests are generally misleading. Then, we introduce a sensitivity analysis that uses information on variables influenced by the instrument to gauge the effect of potential violations of the exclusion restriction. We illustrate it in two replications of existing analyses and summarize our results in easy-to-understand guidelines.
