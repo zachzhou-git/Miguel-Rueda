@@ -8,15 +8,15 @@ permalink: /research/
 <style>
 /* ===== Research/Publications layout ===== */
 
-/* 大标题：紫色 + 更大字号 + 粗体 */
+/* big title */
 .pubs-h1{
   font-weight: 700;
   font-size: 1.7rem;
-  color: var(--global-theme-color, #6f42c1); /* 优先用模板紫色变量；没有就用紫色 fallback */
+  color: var(--global-theme-color); 
   margin: 1.2rem 0 0.8rem 0;
 }
 
-/* 小标题：黑色 + 粗体；字号与论文标题一致 */
+/* sub title */
 .pubs-h2{
   font-weight: 400;
   font-size: 1.3rem;
@@ -24,19 +24,18 @@ permalink: /research/
   margin: 1.6rem 0 0.6rem 0; /* 这里控制“小标题之间留间距” */
 }
 
-/* 每条论文（details）块的间距 */
+/* details margin*/
 .pub-item{
   margin: 0 0 0.65rem 0;
 }
 
-/* 论文标题：正常字重；字号与小标题一致 */
+/* paper title */
 .pub-item summary{
   font-weight: 400;   /* 关键：别加粗 */
   font-size: 1rem;
   line-height: 1.45;
 }
 
-/* 如果你想让 coauthors / journal 也跟着 summary 统一正常体，就保持这样即可 */
 
 /* 展开后的段落间距 */
 .pub-item p{
