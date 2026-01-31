@@ -209,6 +209,9 @@
       {% if entry.bibtex_show %}
         <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
       {% endif %}
+      {% if entry.cite %}
+        <a class="cite btn btn-sm z-depth-0" role="button">Cite</a>
+      {% endif %}
       {% if entry.html %}
         {% if entry.html contains '://' %}
           <a href="{{ entry.html }}" class="btn btn-sm z-depth-0" role="button">HTML</a>
@@ -384,6 +387,15 @@
         {% endhighlight %}
       </div>
     {% endif %}
+
+    {% if entry.cite %}
+      <!-- Hidden cite block -->
+      <div class="cite hidden">
+        {% highlight bibtex %}
+        {{- entry.cite -}}
+        {% endhighlight %}
+     </div>
+     {% endif %}
 
     {% if entry.video and site.enable_video_embedding %}
       <!-- Hidden video block -->
