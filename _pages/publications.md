@@ -37,4 +37,3 @@ nav: true
 <h2 class="pubs-h1">Working Papers and Work in Progress</h2>
 
 
-</div>
