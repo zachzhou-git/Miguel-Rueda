@@ -5,8 +5,8 @@ title: publications
 nav_order: 8
 nav: true
 ---
-<style>
 
+<style>
 .pubs-h1{
   font-weight: 700;
   font-size: 1.7rem;
@@ -19,21 +19,32 @@ nav: true
   color: #000;
   margin: 1.6rem 0 0.6rem 0;
 }
+
 </style>
 
-<h2 class="pubs-h1">Publications</h2>
-
-<h3 class="pubs-h2">Elections and Electoral Manipulation</h3>
-
-<!-- _pages/publications.md -->
-
 <!-- Bibsearch Feature -->
-
 {% include bib_search.liquid %}
 
 <div class="publications">
 
-{% bibliography %}
+<h2 class="pubs-h1">Publications</h2>
+
+<h3 class="pubs-h2">Elections and Electoral Manipulation</h3>
+{% bibliography --file papers --query @*[section=elections] --group_by none --sort_by year --order descending %}
+
+<h3 class="pubs-h2">Money in Politics</h3>
+{% bibliography --file papers --query @*[section=money] --group_by none --sort_by year --order descending %}
+
+<h3 class="pubs-h2">Methodology</h3>
+{% bibliography --file papers --query @*[section=methodology] --group_by none --sort_by year --order descending %}
+
+<h3 class="pubs-h2">Conflict</h3>
+{% bibliography --file papers --query @*[section=conflict] --group_by none --sort_by year --order descending %}
+
 <h2 class="pubs-h1">Working Papers and Work in Progress</h2>
+{% bibliography --file papers --query @*[section=working] --group_by none --sort_by sortkey --order ascending %}
 
+<h2 class="pubs-h1">Other Writing</h2>
+{% bibliography --file papers --query @*[section=other] --group_by none --sort_by sortkey --order ascending %}
 
+</div>
