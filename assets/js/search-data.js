@@ -45,11 +45,11 @@ ninja.data = [{
             window.location.href = "/Miguel-Rueda/community/";
           },
         },{id: "nav-publications",
-          title: "publications",
+          title: "PUBLICATIONS",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/Miguel-Rueda/PUBLICATIONS/";
+            window.location.href = "/Miguel-Rueda/publications/";
           },
         },{id: "books-the-godfather",
           title: 'The Godfather',
