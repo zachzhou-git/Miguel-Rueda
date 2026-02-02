@@ -49,7 +49,7 @@ ninja.data = [{
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/Miguel-Rueda/publications/";
+            window.location.href = "/Miguel-Rueda/PUBLICATIONS/";
           },
         },{id: "books-the-godfather",
           title: 'The Godfather',
