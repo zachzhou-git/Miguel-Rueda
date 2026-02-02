@@ -1,9 +1,9 @@
 ---
 layout: page
-title: RESEARCH
-nav: true
-nav_order: 3
-permalink: /research/
+title: RESEARCH2
+nav: false
+nav_order: 8
+permalink: /research2/
 ---
 <style>
 /* ===== Research/Publications layout ===== */
