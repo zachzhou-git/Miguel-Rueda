@@ -21,3 +21,9 @@
 
 .publications h2.bibliography { display: none !important; }
 
+/* Publications buttons: keep Title Case (don't force uppercase) */
+.publications .links a,
+.publications .links a.btn,
+.publications .links a.btn-sm {
+  text-transform: none !important;
+}
