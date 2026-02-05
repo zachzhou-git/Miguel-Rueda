@@ -8,7 +8,8 @@ permalink: /teaching/
 
 ## Emory University
 
-- Spring 2020: Empirical Methods I (Graduate), [Syllabus]({{ '/assets/pdf/Syllabus_POLS509_2021.pdf' | relative_url }})
+- Spring 2020: Empirical Methods I (Graduate), 
+<a href="{{ '/assets/pdf/Syllabus_POLS509_2021.pdf' | relative_url }}">Syllabus</a>
 - Spring 2016 and 2017: Introduction to Comparative Politics II (Undergraduate), [Syllabus]({{ '/assets/pdf/Syllabus_Intro.pdf' | relative_url }})
 - Fall 2015, 2016, 2017, 2018, and 2019: Mathematical Tools for Political Scientists (Graduate), [Syllabus]({{ '/assets/pdf/Syllabus_Math_tools5.pdf' | relative_url }})
 - Spring 2015, Fall 2016, and Spring 2020: Electoral Politics (Graduate), [Syllabus]({{ '/assets/pdf/Syllabus_Electoral_Politics2020.pdf' | relative_url }})
