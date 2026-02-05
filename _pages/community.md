@@ -47,18 +47,18 @@ permalink: /community/
 
 <h3 class="pubs-h1">Coauthors</h3>
 
-- [Ascencio, Sergio](http://www.sergioascencio.org/) — Department of Political Science, <em>University of New Mexico</em>.
+- [Ascencio, Sergio](http://www.sergioascencio.org/) — Department of Government, <em>University of Essex</em>.
 - [Clarke, Kevin A](https://www.kevinclarke.org/) — Department of Political Science, <em>University of Rochester</em>.
-- [Edwards, Pearce](https://pearceedwards.com/) — Department of Political Science, <em>Emory University</em>.
+- [Edwards, Pearce](https://pearceedwards.com/) — Department of Political Science, <em>Texas Christian University</em>.
 - [Ge, Shuning](https://polisci.mit.edu/people/shuning-ge) — Department of Political Science, <em>Massachusetts Institute of Technology</em>.
 - [Gibilisco, Michael](http://michaelgibilisco.com/index.html) — Department of Political Science, <em>California Institute of Technology</em>.
 - [Glynn, Adam](https://scholar.harvard.edu/aglynn) — Department of Political Science, <em>Emory University</em>.
 - [Grossman, Guy](https://web.sas.upenn.edu/ggros/) — Department of Political Science, <em>University of Pennsylvania</em>.
-- [Gulzar, Saad](http://saadgulzar.com/) — Department of Political Science, <em>Stanford University</em>.
+- [Gulzar, Saad](http://saadgulzar.com/) — Department of Political Science, <em>University of Notre Dame</em>.
 - [Kalandrakis, Tasos](http://www.rochester.edu/college/faculty/kalandrakis/) — Department of Political Science, <em>University of Rochester</em>.
 - [Kenkel, Brenton](https://bkenkel.com/) — Department of Political Science, <em>Vanderbilt University</em>.
 - [Luongo, Anthony](https://anthonyluongo.github.io/) — Department of Political Science, <em>Emory University</em>.
-- [Ruiz, Nelson](https://sites.google.com/view/nruiz) — Department of Politics and International Relations, <em>University of Oxford</em>.
-- [Schuessler, Julian](http://www.julianschuessler.net/) — Department of Political Science, <em>Aarhus University</em>.
+- [Ruiz, Nelson](https://sites.google.com/view/nruiz) — Department of Government, <em>University of Essex</em>.
+- [Schuessler, Julian](http://www.julianschuessler.net/) — Data scientist at <em>BESTSELLER</em>.
 
 ---
