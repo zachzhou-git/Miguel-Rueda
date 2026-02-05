@@ -54,7 +54,7 @@ permalink: /community/
 - [Gibilisco, Michael](http://michaelgibilisco.com/index.html) — Department of Political Science, <em>California Institute of Technology</em>.
 - [Glynn, Adam](https://scholar.harvard.edu/aglynn) — Department of Political Science, <em>Emory University</em>.
 - [Grossman, Guy](https://web.sas.upenn.edu/ggros/) — Department of Political Science, <em>University of Pennsylvania</em>.
-- [Gulzar, Saad](http://saadgulzar.com/) — Department of Political Science, <em>University of Notre Dame</em>.
+- [Gulzar, Saad](http://saadgulzar.com/) — Department of Political Science and Global Affairs, <em>University of Notre Dame</em>.
 - [Kalandrakis, Tasos](http://www.rochester.edu/college/faculty/kalandrakis/) — Department of Political Science, <em>University of Rochester</em>.
 - [Kenkel, Brenton](https://bkenkel.com/) — Department of Political Science, <em>Vanderbilt University</em>.
 - [Luongo, Anthony](https://anthonyluongo.github.io/) — Department of Political Science, <em>Emory University</em>.
