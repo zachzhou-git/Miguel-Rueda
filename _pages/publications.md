@@ -44,7 +44,5 @@ nav: true
 <h2 class="pubs-h1">Working Papers and Work in Progress</h2>
 {% bibliography --file papers --query @*[section=working] --group_by none --sort_by sortkey --order ascending %}
 
-<h2 class="pubs-h1">Other Writing</h2>
-{% bibliography --file papers --query @*[section=other] --group_by none --sort_by sortkey --order ascending %}
 
 </div>
