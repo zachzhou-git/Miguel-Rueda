@@ -16,7 +16,7 @@ nav: true
 .pubs-h2{
   font-weight: 400;
   font-size: 1.3rem;
-  color: #000;
+  color: var(--global-theme-color);
   margin: 1.6rem 0 0.6rem 0;
 }
 
