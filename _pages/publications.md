@@ -8,7 +8,7 @@ nav: true
 
 <style>
 .pubs-h1{
-  font-weight: 450;
+  font-weight: 400;
   font-size: 1.7rem;
   color: var(--global-theme-color);
   margin: 1.2rem 0 0.8rem 0;
