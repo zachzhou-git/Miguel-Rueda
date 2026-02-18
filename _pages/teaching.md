@@ -28,7 +28,7 @@ permalink: /teaching/
 
 ## Universidad de los Andes
 
--Differential Calculus
+- Differential Calculus
 
 ## Pontificia Universidad Javeriana
 
