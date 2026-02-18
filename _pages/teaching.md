@@ -6,6 +6,24 @@ nav_order: 4
 permalink: /teaching/
 ---
 
+<style>
+.pubs-h1{
+  font-weight: 450;
+  font-size: 1.7rem;
+  color: var(--global-theme-color);
+  margin: 1.2rem 0 0.8rem 0;
+}
+.pubs-h2{
+  font-weight: 400;
+  font-size: 1.3rem;
+  color: var(--global-theme-color);
+  margin: 1.6rem 0 0.6rem 0;
+}
+
+</style>
+
+
+
 ## Emory University
 
 - Empirical Methods I (Graduate),
