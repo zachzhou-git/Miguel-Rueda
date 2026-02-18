@@ -23,8 +23,7 @@ permalink: /teaching/
 </style>
 
 
-
-## Emory University
+<h2 class="pubs-h1">Emory University</h2>
 
 - Empirical Methods I (Graduate),
   <a href="{{ '/assets/pdf/Syllabus_POLS509_2021.pdf' | relative_url }}">Syllabus</a>
@@ -39,16 +38,16 @@ permalink: /teaching/
 - Game Theory (Undergraduate),
   <a href="{{ '/assets/pdf/Syllabus_Game_Theory.pdf' | relative_url }}">Syllabus</a>
 
-## Princeton University
+<h2 class="pubs-h1">Princeton University</h2>
 
 - Social Networks – Reading Group (co-organized with John B. Londregan),
   <a href="{{ '/assets/pdf/Syllabus_Networks.pdf' | relative_url }}">Syllabus</a>
 
-## Universidad de los Andes
+<h2 class="pubs-h1">Universidad de los Andes</h2>
 
 - Differential Calculus
 
-## Pontificia Universidad Javeriana
+<h2 class="pubs-h1">Pontificia Universidad Javeriana</h2>
 
 - Autocracy, Democracy, and Elections (co-taught with Camilo García-Jimeno),
   <a href="{{ '/assets/pdf/Economia_Politica.pdf' | relative_url }}">Syllabus</a>
